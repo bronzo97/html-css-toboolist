@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 /* -------- HEADER ------- */
@@ -21,13 +22,12 @@ img {
     display: inline-block;
     vertical-align: middle;
     font-size: 42px;
-    font-family: Arial, sans-serif;
 }
 
-/* -------- MAIN --------- */
+/* -------- BUTTONS --------- */
 
 main {
-    background-color: lightgray;
+    background-color: #F6F8F9;
     padding-top: 40px;
 }
 
@@ -39,10 +39,10 @@ main {
 }
 
 .button-1 {
-    background-color: aqua;
+    background-color: #47ADF1;
     border: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     color: #fff;
     margin: 10px 5px 10px 40px;
 }
@@ -51,7 +51,7 @@ main {
     background-color: #fff;
     border: 1px solid lightgray;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     color: lightgray;
     margin: 10px auto;
 }
@@ -60,4 +60,91 @@ main {
     border-bottom: 1px solid lightgray;
 }
 
+/* -------- LIST -------- */
 
+.list {
+    padding: 40px;
+}
+h2 {
+    color: #484C55;
+}
+
+.item {
+    margin: 10px 0 20px 0;
+}
+
+.tick {
+    display: inline-block;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 2px 4px;
+    font-size: 10px;
+}
+
+.cross {
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 2px 4px;
+    font-size: 10px;
+}
+
+p {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: baseline;
+    color: #4D5159;
+}
+
+.category {
+    display: inline-block;
+    color: #fff;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.editorial {
+    display: inline-block;
+    background-color: #45ABEA;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.q1 {
+    display: inline-block;
+    background-color: #9C72E4;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.recruiting {
+    display: inline-block;
+    background-color: #64C0A9;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.mobile {
+    display: inline-block;
+    background-color: #F29E3F;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.websites {
+    display: inline-block;
+    background-color: #D863A1;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.sales {
+    display: inline-block;
+    background-color: #B0CA3C;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
