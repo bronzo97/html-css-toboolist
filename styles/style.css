@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    margin: 10px;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 42px;
+    font-family: Arial, sans-serif;
+}
+
+
